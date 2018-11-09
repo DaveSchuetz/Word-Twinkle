@@ -1,0 +1,78 @@
+html{
+    background: rgba(173, 209, 174, 0.5);
+}
+body {
+    width: 500px;
+    margin: 100px auto;
+    text-align: center;
+    background: rgb(95, 193, 100);
+    color: rgb(95, 193, 100);
+}
+#banner p{
+    display: inline;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+#h{
+    animation: animate 1.8s infinite;
+    animation-delay: 0s;
+}
+#e
+{
+    animation: animate 2s infinite;
+    animation-delay: .15s;
+}
+#l
+{
+    animation: animate 2.3s infinite;
+    animation-delay: .3s;
+}
+#l2
+{
+    animation: animate 3s infinite;
+    animation-delay: .45s;
+}
+#o
+{
+    animation: animate 2.6s infinite;
+    animation-delay: .6s;
+}
+#w
+{
+    animation: animate 3.25s infinite;
+    animation-delay: .75s;
+}
+#o2
+{
+    animation: animate 2.9s infinite;
+    animation-delay: .9s;
+}
+#r
+{
+    animation: animate 3.05s infinite;
+    animation-delay: 1.05s;
+}
+#l3
+{
+    animation: animate 3.2s infinite;
+    animation-delay: 1s;
+}
+#d
+{
+    animation: animate 3s infinite;
+    animation-delay: 1.35s;
+}
+@keyframes animate
+{
+    0%
+    {
+        color: rgb(226, 51, 215);
+    }
+    50%
+    {
+        color: rgb(95, 193, 100)
+    }
+    100%{
+        color: rgb(95, 193, 100)
+    }
+}
